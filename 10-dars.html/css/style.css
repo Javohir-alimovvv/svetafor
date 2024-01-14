@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.container {
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.box {
+  width: 300px;
+  height: 700px;
+  border: 10px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.box1 {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: white;
+  border: 10px solid black;
+  animation: box1 5s;
+}
+
+.box2 {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: white;
+  border: 10px solid black;
+  animation: box2 10s;
+}
+
+.box3 {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: white;
+  border: 10px solid black;
+  animation: box3 10s;
+}
+
+@keyframes box1 {
+  0% {
+    background-color: white;
+  }
+  25% {
+    background-color: white;
+  }
+  50% {
+    background-color: rgb(255, 0, 0);
+  }
+  75% {
+    background-color: white;
+  }
+  100% {
+    background-color: white;
+  }
+}
+@keyframes box2 {
+  0% {
+    background-color: white;
+  }
+  25% {
+    background-color: white;
+  }
+  50% {
+    background-color: rgb(255, 255, 0);
+  }
+  75% {
+    background-color: white;
+  }
+  100% {
+    background-color: white;
+  }
+}
+@keyframes box3 {
+  0% {
+    background-color: white;
+  }
+  25% {
+    background-color: white;
+  }
+  50% {
+    background-color: white;
+  }
+  75% {
+    background-color: rgb(0, 253, 0);
+  }
+  100% {
+    background-color: white;
+  }
+}/*# sourceMappingURL=style.css.map */
